@@ -11,6 +11,7 @@
         </tr>
         <tr>
             <th>タスク</th>
+            <td>{{ $task->status }}</td>
             <td>{{ $task->content }}</td>
         </tr>
     </table>
